@@ -44,12 +44,12 @@ to specific studies, such as in the field of transposable elements.
                             Download and compilation
 ------------------------------------------------------------------------------
 
-Download the source code from http://exon.ieeta.pt/xs/, decompress the file 
-and make the binary:
+Download the source code from https://github.com/pratas/XS, decompress the 
+file and make the binary:
 
-wget exon.ieeta.pt/xs/src.tar.gz
-tar -vzxf src.tar.gz
-cd src
+wget https://github.com/pratas/XS/archive/master.zip
+unzip master.zip
+cd XS-master/
 make
 
 ==============================================================================
@@ -205,7 +205,7 @@ Common usage:
 
 Project name: XS;
 
-Project home page: http://exon.ieeta.pt/xs/;
+Project home page: https://github.com/pratas/XS/;
 
 Operating system(s): Linux;
 
