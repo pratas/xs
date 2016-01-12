@@ -4,8 +4,6 @@ XS is a skilled FASTQ read simulation tool, flexible, portable (does not need a 
 
 ## INSTALLATION ##
 
-Download the source code from https://github.com/pratas/XS, decompress the
-file and make the binary:
 <pre>
 git clone https://github.com/pratas/XS.git
 cd XS/
