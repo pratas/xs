@@ -1,4 +1,3 @@
-# XS #
 <p align="center"><img src="/xs.png" 
 alt="XS" width="200" height="200" border="0" /></p>
 XS is a skilled FASTQ read simulation tool, flexible, portable (does not need a reference sequence) and tunable in terms of sequence complexity. XS handles Ion Torrent, Roche-454, Illumina and ABI-SOLiD simulation sequencing types. It has several running modes, depending on the time and memory available, and is aimed at testing computing infrastructures, namely cloud computing of large-scale projects, and testing FASTQ compression algorithms. Moreover, XS offers the possibility of simulating the three main FASTQ components individually (headers, DNA sequences and quality-scores).
@@ -8,9 +7,8 @@ XS is a skilled FASTQ read simulation tool, flexible, portable (does not need a 
 Download the source code from https://github.com/pratas/XS, decompress the
 file and make the binary:
 <pre>
-wget https://github.com/pratas/XS/archive/master.zip
-unzip master.zip
-cd XS-master/
+git clone https://github.com/pratas/XS.git
+cd XS/
 make
 </pre>
 
