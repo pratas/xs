@@ -162,7 +162,7 @@ int32_t main(int32_t argc, char *argv[])
     exit(ErrorM(1));
 
   for(n = 1 ; n < argc ; n++)
-    if(!strcmp("-V", argv[n]))
+    if(!strcmp("--version", argv[n]))
       { fprintf(stderr, "Version: %s\n", VERSION); return EXIT_SUCCESS; }
 
 
