@@ -18,6 +18,7 @@
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+#define VERSION                              "2.1"
 #define toBase36(x)                          ((x)<26 ? (x)+'A' : ((x)-26)+'0')
 #define ABS(a)                               ((a)>0?(a):-(a))
 #define MIN(a,b)                             ((a)<(b)?(a):(b))

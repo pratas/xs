@@ -162,6 +162,11 @@ int32_t main(int32_t argc, char *argv[])
     exit(ErrorM(1));
 
   for(n = 1 ; n < argc ; n++)
+    if(!strcmp("-V", argv[n]))
+      { fprintf(stderr, "Version: %s\n", VERSION); return EXIT_SUCCESS; }
+
+
+  for(n = 1 ; n < argc ; n++)
     if(!strcmp("-v", argv[n]))
       { verbose = 'y'; break;  }
 

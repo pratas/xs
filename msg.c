@@ -24,6 +24,7 @@ uint32_t ErrorM(uint32_t id)
     fprintf(stderr, "Usage: XS   [OPTION]... [FILE] \n\n");
     fprintf(stderr, "System options:\n");
     fprintf(stderr, " -h                       give this help\n");
+    fprintf(stderr, " -V                       version number\n");
     fprintf(stderr, " -v                       verbose mode\n\n");
     fprintf(stderr, "Main FASTQ options:\n");
     fprintf(stderr, " -t  <sequencingType>     type: 1=Roche-454, 2=Illumina,"
