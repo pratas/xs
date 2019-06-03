@@ -77,6 +77,7 @@ uint32_t ErrorM(uint32_t id)
     fprintf(stderr, " ./XS -v -ls 100 -n 10000 -eh -eo -es -edb -f 0.3,0.2,0."
     "2,0.3,0.0 -rn 50 -ri 300 -ra 3000 -rm 0.1 File\n\n");
     fprintf(stderr, "Report bugs to {pratas,ap,jmr}@ua.pt\n");
+    return 0;
     break;
 
     case 1:
