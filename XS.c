@@ -163,7 +163,7 @@ int32_t main(int32_t argc, char *argv[])
 
   for(n = 1 ; n < argc ; n++)
     if(!strcmp("--version", argv[n]) || !strcmp("-V", argv[n]))
-      { fprintf(stderr, "Version: %s\n", VERSION); return EXIT_SUCCESS; }
+      { fprintf(stdout, "Version: %s\n", VERSION); return EXIT_SUCCESS; }
 
 
   for(n = 1 ; n < argc ; n++)
